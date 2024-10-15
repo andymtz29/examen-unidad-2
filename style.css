@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://globalendar.com/wp-content/uploads/2023/03/fondos-de-pantalla-aesthetic-verde-9-2048x1285.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #020202;
+    margin-top: 20px;
+}
+
+label {
+    color: #000000;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 35px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea, input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 50px;
+}
+
+#opcionesSinonimos p {
+    color: #333;
+    font-weight: bold;
+}
+
+#opcionesSinonimos select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+}
+
+#opcionesSinonimos button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#opcionesSinonimos button:hover {
+    background-color: #218838;
+}
